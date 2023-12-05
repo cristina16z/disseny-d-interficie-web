@@ -1,0 +1,34 @@
+#container1 {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    border: 2px solid brown;
+
+}
+
+article {
+    border: 2px solid palevioletred;
+}
+
+#image, h2, p {
+    border: 2px solid greenyellow;
+}
+
+aside {
+    border: 2px solid greenyellow;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    
+}
+
+#menu1 {
+    background-color: #4264a2;
+    margin: 8vh 1vh 1vh 1vh;
+    padding: 1vh 2vh 1vh 2vh;
+    color: white;
+    font-size: x-large;
+    width: 6vw;
+}
