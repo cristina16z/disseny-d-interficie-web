@@ -1,34 +1,74 @@
-#container1 {
-    border: 1px solid blue;
-    display: flex;
-    flex-direction: row;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-main {
-    border: 2px solid brown;
+header{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding:20px;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+.container{
+    border:1px solid blue;
+    display: flex;                          /*para que quede en horizontal main & el aside*/
+
+    /*flex-direction: row-reverse;            horizontalmente al revés--> aside & main */
+  /*  align-items: center;                    verticlamente centrado*/
+
+  padding: 20px;
+  width: 100wh;
+}
+
+
+
+main{
+    border: 1px solid brown;
+    padding: 20px;
+}
+
+article{
+    border: 1px solid pink;
+    margin-bottom: 100px;                    /*entre un article y altre un màrge */
 
 }
 
-article {
-    border: 2px solid palevioletred;
+.container_img{
+    border: 1px solid green;
+}
+.container_img > img{
+    width: 100%;
+   /* width: 500px;*/
 }
 
-#image, h2, p {
-    border: 2px solid greenyellow;
+h2{
+    border: 1px solid green;
+    margin: 20px;
 }
+
+p{
+    border: 1px solid green;
+    margin: 20px;
+}
+
+
+
 
 aside {
-    border: 2px solid greenyellow;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    
+    border:1px solid green;
+    padding: 20px;                      /*márgen de arriba menus y el borde verde */
 }
 
-#menu1 {
-    background-color: #4264a2;
-    margin: 8vh 1vh 1vh 1vh;
-    padding: 1vh 2vh 1vh 2vh;
+.menu{
+    background-color: rgb(19, 19, 56);
     color: white;
-    font-size: x-large;
-    width: 6vw;
+    width: 200px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    text-align: center;
 }
